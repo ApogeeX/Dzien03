@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTest"
         mc:Ignorable="d"
-        Title="TextBoxExample" Height="350" Width="800">
+        Title="TextBoxExample" Height="350" Width="800" Icon="/Images/red_icon.png">
     <StackPanel Margin="20">
         <TextBox Margin="10"/>
-        <TextBox Margin="10" Height="100" TextWrapping="Wrap" AcceptsReturn="True" SpellCheck.IsEnabled="True" Language="en-US"></TextBox>
+        <TextBox Margin="10" Height="100" TextWrapping="Wrap" AcceptsReturn="True" Language="en" SpellCheck.IsEnabled="True" IsEnabled="True"></TextBox>
     </StackPanel>
 </Window>
